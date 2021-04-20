@@ -12,6 +12,11 @@ document.addEventListener('DOMContentLoaded', async function() {
 
   // 🔥 YOUR CODE GOES HERE 🔥
   // Write the recipe (algorithm) in the comments. Then, write the code.
-  
+  // Present in human-readable format
+  console.log(
+    `Noober x Passenger: ${passengerDetails.first} ${passengerDetails.last}
+     - ${passengerDetails.phoneNumber}. Pickup at ${pickupLocation}.
+     Drop-off at ${dropoffLocation}`)
+
   // 🔥 YOUR CODE ENDS HERE 🔥
 })
