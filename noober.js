@@ -46,7 +46,7 @@ else if (purpleReq == 0 && numOfPass > 3) {rideStatus = `XL`}
 else {rideStatus = `X`}
 
 // printing code
-console.log(`Noober ${rideStatus} Passenger: ${passengerFirstName} ${passengerLastName} - ${passengerPhoneNumber}. Pickup at ${pickupLocation}. Drop-off at ${dropoffLocation}`)
+console.log(`Noober ${rideStatus} Passenger: ${passengerFirstName} ${passengerLastName} - ${passengerPhoneNumber}. Pickup at ${pickupLocation}. Drop-off at ${dropoffLocation}.`)
 
   // 🔥 YOUR CODE ENDS HERE 🔥
 })
